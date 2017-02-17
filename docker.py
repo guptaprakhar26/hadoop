@@ -46,18 +46,5 @@ print commands.getstatusoutput(" docker exec myjobtracker /usr/java/jdk1.7.0_79/
 print "jobtracker is started at ip 172.17.0.3"
 print commands.getstatusoutput("docker exec mynamenode hadoop dfsadmin -report")
 print "YOUR HADOOP CLUSTER IS READY TO USE"
-#print "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
-#print commands.getstatusoutput(" docker exec myjobtracker hadoop job -list-active-trackers")
-#print ta[0]
-#print ta[1]
-
-	
-
-#tc=commands.getstatusoutput("docker exec namenode hadoop job -list-activetrackers")
-#print tc[0]
-#print tc[1]
-#tb=commands.getstatusoutput("docker exec namenode hadoop dfsadmin -report")
-#print tb[0]
-#print tb[1]
 
 	
